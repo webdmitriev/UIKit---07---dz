@@ -1,6 +1,6 @@
 # Error-Nil UIKit-07 DZ
  
-```
+```swift
 private let tableProductData: [ProductData] = ProductData.mockData()
 
 private lazy var tableView: UITableView = {
@@ -13,7 +13,7 @@ private lazy var tableView: UITableView = {
 }(UITableView(frame: view.frame, style: .plain))
 ```
 
-```
+```swift
 extension ViewController: UITableViewDataSource, UITableViewDelegate {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         tableProductData.count
