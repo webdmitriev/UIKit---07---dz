@@ -1,4 +1,4 @@
-# Error-Nil UIKit-07 DZ
+# Error-Nil UIKit-07 - UITableView
  
 ```swift
 private let tableProductData: [ProductData] = ProductData.mockData()
